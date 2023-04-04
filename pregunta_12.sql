@@ -42,3 +42,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT K0,CAST(max(c12) AS FLOAT) as 'MAX(c12)',CAST(min(c12) AS FLOAT) AS 'MIN(c12)' FROM tbl1 GROUP BY K0;
